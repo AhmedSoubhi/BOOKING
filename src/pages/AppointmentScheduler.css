@@ -1,0 +1,79 @@
+/* AppointmentScheduler.css */
+
+.appointment-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .appointment-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-check {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .btn-check:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-book {
+    background-color: #28a745;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .btn-book:hover {
+    background-color: #218838;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
